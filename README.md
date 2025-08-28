@@ -87,6 +87,14 @@ Deploy via Docker Compose on server (optional)
 📦 Dockerfile Highlights
 Multi-stage build (reduces image size)
 
+OS Hardening (only if using EC2):
+
+sudo ufw allow 22
+sudo ufw allow 8000
+sudo ufw allow 3000
+sudo ufw allow 9090
+sudo ufw enable
+
 Runs as non-root user
 
 Includes healthcheck for container

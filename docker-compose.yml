@@ -1,8 +1,5 @@
 version: "3.9"
 services:
-      security_opt:
-      - no-new-privileges:true
-    read_only: true
   web:
     build: .
     ports:
