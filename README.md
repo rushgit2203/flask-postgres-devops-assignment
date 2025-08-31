@@ -42,8 +42,7 @@ It includes containerization, infrastructure automation, monitoring, and CI/CD u
 │ └── ci.yml
 └── README.md # Project documentation
 
-yaml
-Copy code
+
 
 ---
 
